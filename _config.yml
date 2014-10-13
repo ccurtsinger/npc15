@@ -1,0 +1,9 @@
+# Site settings
+title: NPC 2015
+email: your-email@domain.com
+description: the 12th IFIP International Conference on Network and Parallel Computing
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://npc15.cs.umass.edu" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

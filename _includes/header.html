@@ -1,0 +1,49 @@
+<div class="navbar navbar-inverse" role="navigation">
+  <div class="image-header jumbotron">
+    <div class="container">
+      <h1>NPC 2015</h1>
+      <p>The 12th Annual IFIP International Conference on Network and Parallel Computing</p>
+      <h2>New York City, September 17-19</h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        {% assign path_match = "/" %}
+        {% assign match_size = "1" %}
+        {% for p in site.pages %}
+          {% capture canonical %}{{ p.url | replace: '/index.html', '/' }}{% endcapture %}
+          {% if p.in_nav and page.url contains canonical %}
+            {% capture current_size %}{{ canonical | size }}{% endcapture %}
+            {% if current_size > match_size %}
+              {% assign path_match = p.url %}
+              {% assign match_size = current_size %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        
+        {% for p in site.weighted_pages %}
+          {% if p.in_nav %}
+            {% if p.url == path_match %}
+        <li class="active">
+            {% else %}
+        <li>
+            {% endif %}
+          <a href="{{ p.url | prepend : site.baseurl | replace: '/index.html', '/' }}">{{ p.title }}</a>
+        </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+

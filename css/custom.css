@@ -1,0 +1,53 @@
+div.image-header {
+  margin: 0;
+  padding-top: 4.5em;
+  width: 100%;
+  min-height: 300px;
+  background-image: url(/images/nyc.jpg);
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-header * {
+  color: #eee;
+  font-weight: bold;
+}
+
+.image-header h2 {
+  margin-top: 3px;
+  font-size: 22pt;
+}
+
+.image-header h1 {
+  margin-bottom: 0;
+}
+
+.navbar {
+  border-radius: 0px;
+  border: none;
+}
+
+dl.dl-horizontal-wide dt {
+  width: 200px;
+}
+
+dl.dl-horizontal-wide dd {
+  margin-left: 220px;
+}
+
+dl.dl-horizontal-narrow dt {
+  width: 130px;
+}
+
+dl.dl-horizontal-narrow dd {
+  margin-left: 150px;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+h3 {
+  font-size: 16pt;
+}
