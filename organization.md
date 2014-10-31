@@ -32,10 +32,12 @@ permalink: /organization/
       <dd>University of Texas, San Antonio, USA </dd>
     </dl>
 
-    <h3>Local Arrangements Chair</h3>
+    <h3>Local Arrangements Co-Chairs</h3>
     <dl class="dl-horizontal">
       <dt>Martha Kim</dt>
       <dd>Columbia University, USA</dd>
+      <dt>Zehra Sura</dt>
+      <dd>IBM, USA</dd>
     </dl>
 
     <h3>Publicity Chairs</h3>
