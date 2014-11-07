@@ -48,7 +48,7 @@ permalink: /organization/
       <dd>Tsinghua University (Asia)</dd>
       <dt>Christoph Kessler</dt>
       <dd>Linkoping University (Europe)</dd>
-    </dl>  
+    </dl>
 
     <h3>Registration Chair</h3>
     <dl class="dl-horizontal">
@@ -104,9 +104,95 @@ permalink: /organization/
       <dd>Microsoft, USA</dd>
     </dl>
   </div>
-  
-  <div class="col-md-5 col-md-offset-1">
+  <div class="col-md-6">
     <h2>Program Committee</h2>
-    TBD
+      <dl class="dl-horizontal">
+        <dt>Pavan Balaji</dt>
+        <dd>Argonne National Laboratory</dd>
+        <dt>Mehmet Balman</dt>
+        <dd>Lawrence Berkeley National Laboratory</dd>
+        <dt>Surendra Byna</dt>
+        <dd>Lawrence Berkeley National Laboratory</dd>
+        <dt>Massimo Cafaro</dt>
+        <dd>University of Salento, Italy</dd>
+        <dt>Jun Chen</dt>
+        <dd>IAPACM, China</dd>
+        <dt>Wenguang Chen</dt>
+        <dd>Tsinghua University</dd>
+        <dt>Yifeng Cui</dt>
+        <dd>University of California, San Diego</dd>
+        <dt>Parijat Dubey</dt>
+        <dd>IBM</dd>
+        <dt>Zhen Fang</dt>
+        <dd>AMD</dd>
+        <dt>Xiaobing Feng</dt>
+        <dd>ICT, CAS</dd>
+        <dt>Junli Gu</dt>
+        <dd>AMD</dd>
+        <dt>Haiwu He</dt>
+        <dd>CNNIC, China</dd>
+        <dt>Shadi Ibrahim</dt>
+        <dd>INRIA</dd>
+        <dt>Dejun Jiang</dt>
+        <dd>Chinese Academy of Sciences</dd>
+        <dt>David Kaeli</dt>
+        <dd>Northeastern University</dd>
+        <dt>Sriram Krishnamoorthy</dt>
+        <dd>Pacific Northwest National Lab</dd>
+        <dt>Laurent Lefevre</dt>
+        <dd>INRIA, France</dd>
+        <dt>Jian Li</dt>
+        <dd>Huawei</dd>
+        <dt>Kenli Li</dt>
+        <dd>Hunan University, China</dd>
+        <dt>Zhiyuan Li</dt>
+        <dd>Purdue University</dd>
+        <dt>Xiaofei Liao</dt>
+        <dd>HUST, China</dd>
+        <dt>Kai Lu</dt>
+        <dd>NUDT, China</dd>
+        <dt>Xiaoyi Lu</dt>
+        <dd>Ohio State University</dd>
+        <dt>Yutong Lu</dt>
+        <dd>NUDT, China</dd>
+        <dt>Yingwei Luo</dt>
+        <dd>Peking University</dd>
+        <dt>Xiaosong Ma</dt>
+        <dd>North Carolina State University</dd>
+        <dt>Kaoutar El Maghraoui</dt>
+        <dd>IBM</dd>
+        <dt>Vanneschi Marco</dt>
+        <dd>University of Pisa</dd>
+        <dt>Serge Petiton</dt>
+        <dd>Universite des Sciences et Technologies de Lille</dd>
+        <dt>Apan Qasem</dt>
+        <dd>Texas State University</dd>
+        <dt>Guangzhi Qu</dt>
+        <dd>Oakland University</dd>
+        <dt>Xuanhua Shi</dt>
+        <dd>HUST, China</dd>
+        <dt>Gaurav Singh</dt>
+        <dd>CSIRO, Australia</dd>
+        <dt>Peter Sweeney</dt>
+        <dd>IBM</dd>
+        <dt>Clark Verbrugge</dt>
+        <dd>McGill University</dd>
+        <dt>Long Wang</dt>
+        <dd>SCCAS, China</dd>
+        <dt>Ren Wu</dt>
+        <dd>AMD</dd>
+        <dt>Limin Xiao</dt>
+        <dd>Beihang University, China</dd>
+        <dt>Shengen Yan</dt>
+        <dd>Baidu, IDL</dd>
+        <dt>Liang Yuan</dt>
+        <dd>ICT, CAS</dd>
+        <dt>Linbo Zhang</dt>
+        <dd>LSEC, CAS</dd>
+        <dt>Xianyi Zhang</dt>
+        <dd>IOS, CAS</dd>
+        <dt>Huiyang Zhou</dt>
+        <dd>North Carolina State University</dd>
+      </dl>
   </div>
 </div>
