@@ -12,10 +12,10 @@ permalink: /call/
       <div class="col-md-3 col-sm-2"><img src="/images/NPC_Logo_v2.jpg" class="img-responsive"></div>
       <div class="col-md-6 col-sm-8 text-center">
         <h2 style="text-align: center; margin-top: 0.3em">Call for Papers</h2>
-        <a href="/files/CFP_NPC2015_v11.pdf" alt="download PDF version" class="btn btn-default pull-left">
+        <a href="/files/CFP_NPC2015_v11_Asia.pdf" alt="download PDF version" class="btn btn-default pull-left">
           Download PDF
         </a>
-        <a href="/files/CFP_NPC2015_v10.txt" alt="download text version" class="btn btn-default pull-right">
+        <a href="/files/CFP_NPC2015_v10_Asia.txt" alt="download text version" class="btn btn-default pull-right">
           Download TXT
         </a>
       </div>
