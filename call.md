@@ -65,7 +65,7 @@ permalink: /call/
     </p>
     
     <p>
-      As in previous years, we will publish top papers from NPC 2015 in a special issue of the International Journal of Parallel Programming (SCI indexed). Additional details are on the available on the <a href="/submission">Submission page</a>.
+      As in previous years, we will publish top papers from NPC 2015 in a special issue of the International Journal of Parallel Programming (SCI indexed). Additional details are on the available on the <a href="/submission/papers">Submission page</a>.
     </p>
     
   </div>

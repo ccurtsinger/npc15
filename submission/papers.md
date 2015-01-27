@@ -17,14 +17,14 @@ Top ranked, reviewed papers in NPC'2015 will be published directly (without furt
 Other accepted papers will be published in the conference proceedings, by LNCS, Springer (EI, Scopus).  
 
 Templates for NPC'2015 manuscripts:  
-[Latex for IJPP](http://grid.chu.edu.tw/npc2014/files/LaTex-IJPP-NPC2013.zip)  
-[Latex for LNCS](http://grid.chu.edu.tw/npc2014/files/LaTex-LNCS-NPC2013.zip)  
-[Word for LNCS](httP://grid.chu.edu.tw/npc2014/files/template for lncs-npc2013.doc)
+[Latex for IJPP](/files/LaTex-IJPP-NPC2013.zip)  
+[Latex for LNCS](/files/LaTex-LNCS-NPC2013.zip)  
+[Word for LNCS](/files/template for LNCS-NPC2013.doc)
 
 Regular Page Limit: 12 pages in LNCS format  
 Poster Page Limit: 2 pages in LNCS format
 
-Instructions for LNCS authors can be found here: http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0 
+Instructions for LNCS authors can be found here: [http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0](http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0).
 
 More details are available on the [Camera Ready](/camera_ready/papers/) page.
 

@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Visa Information
-weight: 6
-in_nav: true
 permalink: /visa/
 ---
 

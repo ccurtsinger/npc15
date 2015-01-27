@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Home
-weight: 0
-in_nav: true
 permalink: /
 ---
 

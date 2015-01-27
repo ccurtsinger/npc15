@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Past Conferences
-weight: 7
-in_nav: true
 permalink: /past/
 ---
 

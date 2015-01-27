@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Organization
-weight: 1
-in_nav: true
 permalink: /organization/
 ---
 
