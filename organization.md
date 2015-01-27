@@ -124,7 +124,7 @@ permalink: /organization/
         <dt>Parijat Dubey</dt>
         <dd>IBM</dd>
         <dt>Zhen Fang</dt>
-        <dd>AMD</dd>
+        <dd>AMD &mdash; <em>In Memoriam</em></dd>
         <dt>Xiaobing Feng</dt>
         <dd>ICT, CAS</dd>
         <dt>Junli Gu</dt>

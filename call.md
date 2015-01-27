@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Call for Papers
-weight: 2
-in_nav: true
 permalink: /call/
 ---
 
@@ -12,10 +10,10 @@ permalink: /call/
       <div class="col-md-3 col-sm-2"><img src="/images/NPC_Logo_v2.jpg" class="img-responsive"></div>
       <div class="col-md-6 col-sm-8 text-center">
         <h2 style="text-align: center; margin-top: 0.3em">Call for Papers</h2>
-        <a href="/files/CFP_NPC2015_v11_Asia.pdf" alt="download PDF version" class="btn btn-default pull-left">
+        <a href="/files/CFP_NPC2015_v12.pdf" alt="download PDF version" class="btn btn-default pull-left">
           Download PDF
         </a>
-        <a href="/files/CFP_NPC2015_v10_Asia.txt" alt="download text version" class="btn btn-default pull-right">
+        <a href="/files/CFP_NPC2015_v12.txt" alt="download text version" class="btn btn-default pull-right">
           Download TXT
         </a>
       </div>
@@ -27,10 +25,10 @@ permalink: /call/
       </div>
       <div class="col-xs-6">
         <h2 style="margin-top: 0">Call for Papers</h2>
-        <a href="/files/CFP_NPC2015_v11.pdf" alt="download PDF version" class="btn btn-default">
+        <a href="/files/CFP_NPC2015_v12.pdf" alt="download PDF version" class="btn btn-default">
           Download PDF
         </a>
-        <a href="/files/CFP_NPC2015_v10.txt" alt="download text version" class="btn btn-default">
+        <a href="/files/CFP_NPC2015_v12.txt" alt="download text version" class="btn btn-default">
           Download TXT
         </a>
       </div>
@@ -63,7 +61,11 @@ permalink: /call/
     </ul>
 
     <p>
-      NPC is in its 12th year and previous conferences have attracted high quality papers and wide international participation. Detailed submission instructions will be posted on the NPC 2015 website. As in previous years, we are working to publish top papers from NPC 2015 in a special issue of the International Journal of Parallel Programming (SCI indexed). Additional details are on the website. Other journal venues are also being explored.
+      NPC is in its 12th year and previous conferences have attracted high quality papers and wide international participation.
+    </p>
+    
+    <p>
+      As in previous years, we will publish top papers from NPC 2015 in a special issue of the International Journal of Parallel Programming (SCI indexed). Additional details are on the available on the <a href="/submission">Submission page</a>.
     </p>
     
   </div>

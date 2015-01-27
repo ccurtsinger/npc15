@@ -6,7 +6,7 @@
       <h2>New York City, September 17-19</h2>
     </div>
   </div>
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
@@ -17,28 +17,20 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        {% assign path_match = "/" %}
-        {% assign match_size = "1" %}
-        {% for p in site.pages %}
-          {% capture canonical %}{{ p.url | replace: '/index.html', '/' }}{% endcapture %}
-          {% if p.in_nav and page.url contains canonical %}
-            {% capture current_size %}{{ canonical | size }}{% endcapture %}
-            {% if current_size > match_size %}
-              {% assign path_match = p.url %}
-              {% assign match_size = current_size %}
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        
-        {% for p in site.weighted_pages %}
-          {% if p.in_nav %}
-            {% if p.url == path_match %}
-        <li class="active">
-            {% else %}
-        <li>
-            {% endif %}
-          <a href="{{ p.url | prepend : site.baseurl | replace: '/index.html', '/' }}">{{ p.title }}</a>
-        </li>
+        {% for nav in site.data.nav %}
+          {% if nav.subcategories != null %}
+      	  <li class="dropdown{% if nav.title == page.title %} active{% endif %}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ nav.title }} <span class="caret"></span></a>
+      	    <ul class="dropdown-menu" role="menu">
+      	      {% for subcategory in nav.subcategories %}
+      	        <li{% if subcategory.title == page.subtitle %} class="active"{% endif %}><a href="{{ subcategory.href | prepend : site.baseurl }}">{{ subcategory.title }}</a></li>
+      	      {% endfor %}
+      	    </ul>
+      	  {% elsif nav.title == page.title %}
+      	    <li class="active"><a href="{{ nav.href | prepend : site.baseurl }}">{{ nav.title }}</a></li>
+      	  {% else %} 
+      	    <li>
+      	      <a href="{{ nav.href | prepend : site.baseurl }}">{{ nav.title }}</a></li>
           {% endif %}
         {% endfor %}
       </ul>

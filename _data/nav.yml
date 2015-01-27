@@ -1,0 +1,34 @@
+- title: "Home"
+  href: "/"
+  
+- title: "Organization"
+  href: "/organization"
+  
+- title: "Call for Papers"
+  href: "/call"
+
+- title: "Submission"
+  subcategories:
+    - title: "Paper Submission"
+      href: "/submission/papers"
+    - title: "NPC Publication Model"
+      href: "/submission/npc_model"
+
+- title: "Camera Ready"
+  subcategories:
+    - title: "Regular Papers"
+      href: "/camera_ready/papers"
+    - title: "Posters"
+      href: "/camera_ready/posters"
+
+- title: "Program"
+  href: "/program"
+
+- title: "Attending"
+  href: "/attending"
+
+- title: "Visa Information"
+  href: "/visa"
+
+- title: "Past Conferences"
+  href: "/past"
