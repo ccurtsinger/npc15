@@ -125,15 +125,18 @@ A complete schedule and call for participation is available in [PDF format](/fil
             </h4>
             <p>
               <i>Optimal Deployment Model of Key Pre-distribution Protocol for Heterogeneous Wireless Sensor Networks</i><br>
-              Qi Yuan, Chunguang Ma, Xiaorui Zhong, Peng Wu.
+              Qi Yuan, Chunguang Ma, Xiaorui Zhong, Peng Wu.<br>
+              <span class="fa fa-file-pdf-o"></span> <a href="/papers/NPC_2015_submission_8.pdf/">Download Full Text</a> 
             </p>
             <p>
               <i>Hummer: Mitigating Stragglers with Partial Clones</i><br>
-              Li Jia, Wang Changjian, Li Dongsheng.
+              Li Jia, Wang Changjian, Li Dongsheng.<br>
+              <span class="fa fa-file-pdf-o"></span> <a href="/papers/NPC_2015_submission_37.pdf/">Download Full Text</a>
             </p>
             <p>
               <i>Testing of SDN Applications for Design Flaws and Implementation Bugs</i><br>
-              Jiangyuan Yao, Zhiliang Wang, Xia Yin, Jun Bi, Xingang Shi, Jianping Wu, Yahui Li.
+              Jiangyuan Yao, Zhiliang Wang, Xia Yin, Jun Bi, Xingang Shi, Jianping Wu, Yahui Li.<br>
+              <span class="fa fa-file-pdf-o"></span> <a href="/papers/NPC_2015_submission_41.pdf/">Download Full Text</a> 
             </p>
           </div> <!-- /media-body -->
         </div> <!-- /media -->
