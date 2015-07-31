@@ -1,0 +1,35 @@
+<?php
+require __DIR__ . '/PayPalSDK/autoload.php';
+
+use \PayPal\Rest\ApiContext;
+use \PayPal\Auth\OAuthTokenCredential;
+
+$apiContext = new ApiContext(
+  new OAuthTokenCredential(
+    'PLACEHOLDER',
+    'PLACEHOLDER'
+  )
+);
+$apiContext->setConfig(array('mode' => 'live'));
+
+$db_user = 'dbname';
+$db_pass = 'dbpass';
+$db_str = 'dbstr';
+
+$PRICES = array(
+  "regtype" => array(
+    "regular" => 500,
+    "student" => 250,
+    "regular_noexcursion" => 350,
+    "student_noexcursion" => 150
+  ),
+  "extra_proceedings" => 75,
+  "extra_tour" => 150,
+  "extra_pages" => 100
+);
+
+$IS_LATE = true;
+
+$LATE_PENALTY = 100;
+
+?>

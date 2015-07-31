@@ -1,0 +1,162 @@
+===========================================================================
+                             CALL FOR PAPERS
+
+                                NPC 2015
+The 12th IFIP International Conference on Network and Parallel Computing 
+                (SCI / EI indexed proceedings in progress)
+                       http://npc15.cs.umass.edu
+
+           September 17-19, 2015              New York, New York
+
+===========================================================================
+
+SPONSOR:         IFIP
+IN-COOPERATION:  ACM SIGMICRO
+
+===========================================================================
+NPC'2015 provides a forum for bold and innovative ideas.  Big Data, Internet
+of Things, Smartphones, Youtube, Globally Distributed Databases, Social
+Networks and more are driving network and parallel computing in new
+directions.  Security and privacy have new importance after break-ins at
+major retailers and banks, Stuxnet, and the revelations of Edward Snowden.
+What are the implications for network and parallel computing?
+
+NPC especially seeks early stage work with the potential for major
+changes in network and parallel computing.  Although quantitative
+assessment is valuable, and NPC welcomes such papers, NPC places yet
+more value on bold ideas, even if all of the details and corner cases
+are not yet resolved, or the ideas fully implemented.
+
+NPC 2015 welcomes original submissions in a range of areas, including but not
+limited to:
+
+ o In-Memory computing
+ o Applications of parallel and distributed computing.
+ o Systems, networks, and architectures for high end computing.
+ o Parallel and multi-core issues and opportunities.
+ o Big data intelligence.
+ o Virtualization of machines, networks, and storage.
+ o Programming languages and environments.
+ o I/O, file systems, and data management.
+ o Resource management, scheduling, and load-balancing.
+ o Performance modeling, simulation, and prediction.
+ o Fault tolerance, reliability and availability.
+
+PC is in its 12th year and previous conferences have attracted high quality
+papers and wide international participation.
+
+As in previous years, we will publish top papers from NPC 2015 in a special
+issue of the International Journal of Parallel Programming (SCI indexed).
+Additional details are on the NPC'2015 website above.
+
+===========================================================================
+IMPORTANT DATES (Tentative, subject to change)
+
+Paper Submissions Due             March    30, 2015 (Extended)
+Results notification              May      20, 2015
+Camera-ready version due          June     10, 2015
+Poster submissions due            June      1, 2015
+Poster Notification               June     20, 2015
+
+NPC'2015 Conference in New York   Sept  17-19, 2015
+
+===========================================================================
+GENERAL CO-CHAIRS
+Erik Altman,            IBM
+Hai Jin,                Huazhong University of Science & Technology
+
+PROGRAM CO-CHAIRS
+Viji Srinivasan,        IBM TJ. Watson Research Center
+Yunquan Zhang,          Chinese Academy of Sciences 
+
+PUBLICATIONS CHAIR
+Abdullah Muzahid,       University of Texas, San Antonio
+
+LOCAL ARRANGEMENTS CO-CHAIRS
+Martha Kim,             Columbia University
+Zehra Sura,             IBM
+
+PUBLICITY CHAIRS
+Wonsun Ahn,             University of Pittsburgh (Americas)
+Wenguang Chen,          Tsinghua Univ    (Asia)
+Christoph Kessler,      Linkoping Univ   (Europe)
+
+REGISTRATION CHAIR
+Ioana Baldini,          IBM
+
+WEB CHAIR
+Charlie Curtsinger,     University of Massachusetts, Amherst
+ 
+===========================================================================
+PROGRAM COMMITTEE 
+
+Zhen Fang,              AMD - In Memoriam
+
+Pavan Balaji,           Argonne National Laboratory
+Mehmet Balman,          Lawrence Berkeley National Laboratory
+Surendra Byna,          Lawrence Berkeley National Laboratory
+Massimo Cafaro,         University of Salento, Italy
+Jun Chen,               IAPACM, China
+Wenguang Chen,          Tsinghua University
+Yifeng Cui,             University of California, San Diego
+Parijat Dubey,          IBM
+Xiaobing Feng,          ICT, CAS
+Junli Gu,               AMD
+Haiwu He,               CNNIC, China
+Shadi Ibrahim,          INRIA
+Dejun Jiang,            Chinese Academy of Sciences
+David Kaeli,            Northeastern University
+Sriram Krishnamoorthy,  Pacific Northwest National Lab
+Laurent Lefevre,        INRIA, France
+Jian Li,                Huawei
+Kenli Li,               Hunan University, China
+Zhiyuan Li,             Purdue University
+Xiaofei Liao,           HUST, China
+Kai Lu,                 NUDT, China
+Xiaoyi Lu,              Ohio State University
+Yutong Lu,              NUDT, China
+Yingwei Luo,            Peking University
+Lin Ma,                 Huawei, USA
+Xiaosong Ma,            North Carolina State University
+Kaoutar El Maghraoui,   IBM
+Vanneschi Marco,        University of Pisa
+Serge Petiton,          Universite des Sciences et Technologies de Lille
+Apan Qasem,             Texas State University
+Guangzhi Qu,            Oakland University
+Xuanhua Shi,            HUST, China
+Gaurav Singh,           CSIRO, Australia
+Peter Sweeney,          IBM
+Clark Verbrugge,        McGill University
+Long Wang,              SCCAS, China
+Ren Wu,                 AMD
+Limin Xiao,             Beihang University, China
+Shengen Yan,            Baidu, IDL
+Liang Yuan,             ICT, CAS
+Linbo Zhang,            LSEC, CAS
+Xianyi Zhang,           IOS, CAS
+Huiyang Zhou,           North Carolina State University
+ 
+===========================================================================
+ADVISORY COMMITTEE
+Ruay-Shiung Chang,      Taiwan Hospitality & Tourism Univ
+Ce-Kuen Shieh,          National Cheng Kung University, Taiwan
+Timothy K. Shih,        National Central University, Taiwan
+Pen-Chung Yew,          University of Minnesota, USA
+
+STEERING COMMITTEE
+
+Kemal Ebcioglu,         Global Supercomputing, USA  (Chair)
+Hai Jin,                Huazhong Univ. of Science & Technology, China
+Chen Ding,              University of Rochester, USA
+Jack Dongarra,          Univ of Tennessee, USA
+Guangrong Gao,          Univ of Delaware, USA
+Daniel Reed,            University of Iowa, USA
+Zhiwei Xu,              Institue of Computing Technology, China
+Yoichi Muraoka,         Waseda University, Japan
+Jean-Luc Gaudiot,       University of California Irvine, USA
+Guojie Li,              The Institute of Computing Technology, China
+Viktor Prasanna,        University of Southern California, USA
+Weisong Shi,            Wayne State University, USA
+Tony Hey,               Microsoft, USA
+
+===========================================================================

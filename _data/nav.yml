@@ -3,16 +3,18 @@
   
 - title: "Organization"
   href: "/organization"
-  
-- title: "Call for Papers"
-  href: "/call"
 
 - title: "Submission"
   subcategories:
+    - title: "Call for Papers"
+      href: "/call"
     - title: "Paper Submission"
       href: "/submission/papers"
     - title: "NPC Publication Model"
       href: "/submission/npc_model"
+
+- title: "Registration"
+  href: "/registration"
 
 - title: "Camera Ready"
   subcategories:
@@ -23,9 +25,6 @@
 
 - title: "Program"
   href: "/program"
-
-- title: "Attending"
-  href: "/attending"
 
 - title: "Visa Information"
   href: "/visa"

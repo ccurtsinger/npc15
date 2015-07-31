@@ -7,13 +7,13 @@ permalink: /camera_ready/papers/
 
 ## Preparing Camera-Ready Papers
 
-All accepted papers should be in the format described below.  Any formatting problems may result in your paper being excluded from the conference proceedings.  If we DO NOT receive your REGISTRATION by the AUTHOR DEADLINE (JULY 1, 2015), your papers will be removed.
+All accepted papers should be in the format described below.  Any formatting problems may result in your paper being excluded from the conference proceedings.  If we DO NOT receive your REGISTRATION by the AUTHOR DEADLINE (June 10, 2015), your papers will be removed.
 
 ### NPC-2015 Main Conference Proceedings
 Each main conference paper can have 12 pages (Note: papers accepted as posters, will be published as two-pages extended abstract in the NPC’2015 proceedings, published by LNCS, Springer). Authors of main conference papers may buy a maximum of  two extra pages at a price of 100 USD per page. The copyright form must be scanned and sent together with the camera-ready paper by email. In order to limit the size of the copyright form, please send the scan as a PDF file.
 
 ### Camera-Ready Package
-Please email your final camera-ready package in .zip format to the NPC'2015 Publications Chair, Abduallah Muzahid ([abdullah.muzahid@utsa.edu](mailto:abdullah.muzahid@utsa.edu)) before July 1, 2015. The login name and password are the same as the ones when you uploaded your submission. if you have any problems, please email publication chair for help.
+Please email your final camera-ready package in .zip format to the NPC'2015 Publications Chair, Abduallah Muzahid ([abdullah.muzahid@utsa.edu](mailto:abdullah.muzahid@utsa.edu)) before June 10, 2015. The login name and password are the same as the ones when you uploaded your submission. if you have any problems, please email publication chair for help.
 The camera-ready package should be a compressed zip file (.zip) containing:
 <ul>
   <li>All the source files (including figures, style files, templates),</li>
