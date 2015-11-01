@@ -44,6 +44,11 @@ title: Registration
       $valid = false;
       $errors['vegetarian'] = 'Please select an option.';
     }
+    
+    if($_POST['secret_code'] != '' && $_POST['secret_code'] != $SECRET_CODE) {
+      $valid = false;
+      $errors['secret_code'] = 'The registration code you have entered is not valid';
+    }
 
     // If author, validate additional options
     if(isset($_POST['author']) && ($_POST['author'] == 'paper' || $_POST['author'] == 'poster')) {
@@ -168,6 +173,8 @@ if($error_count > 0) { ?>
         "student_noexcursion" => "Student (without excursion)
           &nbsp;&nbsp; <span class=\"text-success\"><b>USD ".$PRICES['regtype']['student_noexcursion']." Early</b></span>
           &nbsp;&nbsp; <span class=\"text-danger\"><b>USD ".($PRICES['regtype']['student_noexcursion']+$LATE_PENALTY)." Onsite</b></span>")); ?>
+
+      <?php text_field("secret_code", "Registration discount code"); ?>
 
       <?php radio_field("author", "Are you presenting a paper or poster?", array(
         "paper" => "Yes, a <b>paper</b>",

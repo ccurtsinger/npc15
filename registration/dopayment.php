@@ -165,7 +165,8 @@ if($db->query('
       vegetarian BOOL,
       cost DECIMAL(5, 2),
       payment_id VARCHAR(255),
-      paid BOOL
+      paid BOOL,
+      free_code BOOL
     )') == FALSE) {
   $error_info = $db->errorInfo();
   print_error('Error while configuring registration database. <pre>'.$error_info[2].'</pre>');
@@ -189,7 +190,8 @@ $stmt = $db->prepare('
     vegetarian,
     cost,
     payment_id,
-    paid
+    paid,
+    free_code
   ) VALUES (
     :name,
     :email,
@@ -206,12 +208,19 @@ $stmt = $db->prepare('
     :vegetarian,
     :cost,
     :payment_id,
-    :paid
+    :paid,
+    :free_code
   )'
 );
 
 $vegetarian = $_POST['vegetarian'] == 'yes' ? 1 : 0;
 $paid = 0;
+$free = 0;
+
+if($_POST['secret_code'] == $SECRET_CODE) {
+  $paid = 1;
+  $free = 1;
+}
 
 $stmt->bindParam(':name', $_POST['fullname']);
 $stmt->bindParam(':email', $_POST['email']);
@@ -229,6 +238,7 @@ $stmt->bindParam(':vegetarian', $vegetarian);
 $stmt->bindParam(':cost', $total);
 $stmt->bindParam(':payment_id', $payment_id);
 $stmt->bindParam(':paid', $paid);
+$stmt->bindParam(':free_code', $free);
 
 if($stmt->execute() == FALSE) {
   $error_info = $stmt->errorInfo();
@@ -236,8 +246,13 @@ if($stmt->execute() == FALSE) {
   exit(1);
 }
 
-echo '<h3>Redirecting to payment...</h3><script>document.location = "'.$redirectUrl.'";</script>';
-echo '<p>If you are not redirected to PayPal, click <a href="'.$redirectUrl.'">here</a> to continue.</p>';
+if($free == 1) {
+  echo '<h3>Registration Complete</h3>';
+  echo '<p>Your free registration is now complete.</p>';
+} else {
+  echo '<h3>Redirecting to payment...</h3><script>document.location = "'.$redirectUrl.'";</script>';
+  echo '<p>If you are not redirected to PayPal, click <a href="'.$redirectUrl.'">here</a> to continue.</p>';
+}
 
 exit();
 

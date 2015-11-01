@@ -32,4 +32,6 @@ $IS_LATE = true;
 
 $LATE_PENALTY = 100;
 
+$SECRET_CODE = '';
+
 ?>
